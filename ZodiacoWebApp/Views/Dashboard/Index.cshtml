@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="row">
+    <form class="form-inline" method="POST" id="myForm">
+        <div class="col-2">
+            <select class="custom-select my-1 mr-sm-2" id="op2" name="op2" onchange="changeChart(this.form)">
+                <option value="" selected>Selecciona el eje Y...</option>
+                <option value="Compatibilidad">Compatibilidad</option>
+                <option value="Humor">Humor</option>
+                <option value="BienEnElAmor">BienEnElAmor</option>
+                <option value="Romantico">Romantico</option>
+                <option value="Torpe">Torpe</option>
+                <option value="Sentimental">Setimental</option>
+                <option value="Felicidad">Felicidad</option>
+            </select>
+        </div>
+        <div class="col-8">
+            <figure class="highcharts-figure">
+                <div id="container"></div>
+            </figure>
+        </div>
+        <div class="col-2">
+
+            <select class="custom-select my-1 mr-sm-2" id="op3" name="op3" onchange="changeChart(this.form)">
+                <option value="" selected>Selecciona el eje Z...</option>
+                <option value="Compatibilidad">Compatibilidad</option>
+                <option value="Humor">Humor</option>
+                <option value="BienEnElAmor">BienEnElAmor</option>
+                <option value="Romantico">Romantico</option>
+                <option value="Torpe">Torpe</option>
+                <option value="Sentimental">Setimental</option>
+                <option value="Felicidad">Felicidad</option>
+            </select>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <select class="custom-select my-1 mr-sm-2" id="op1" onchange="changeChart(this.form)" name="op1">
+                <option value="" selected>Selecciona el eje X...</option>
+                <option value="Compatibilidad">Compatibilidad</option>
+                <option value="Humor">Humor</option>
+                <option value="BienEnElAmor">BienEnElAmor</option>
+                <option value="Romantico">Romantico</option>
+                <option value="Torpe">Torpe</option>
+                <option value="Sentimental">Setimental</option>
+                <option value="Felicidad">Felicidad</option>
+            </select>
+        </div>
+
+    </form>
+</div>
+<div class="container">
+ 
+</div>
+@section Scripts{
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="~/js/Dashboard/Dashboard.js"></script>
+}

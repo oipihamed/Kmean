@@ -1,0 +1,2 @@
+# Kmean
+Proyecto de kmean

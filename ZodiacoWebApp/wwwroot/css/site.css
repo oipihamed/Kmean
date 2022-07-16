@@ -9,7 +9,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #fff;
 }
 
 .btn-primary {
@@ -59,16 +59,48 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    background-color: #8abbf3;
+    line-height: 60px; /* Vertically center the text there */
+    background-color:#fff;
 }
 table, th, td {
     border: 1px solid;
+}
+
+/*Estilos Formulario*/
+.Question label {
+    margin-right: 6%;
+}
+
+.but-form button {
+    margin-right: 7%;
+}
+
+.but-res button {
+    margin-top: 8%;
+}
+
+.conten-titulo {
+    background-color: beige;
+}
+
+.entra_nombre {
+    width: 70%;
+}
+
+.margen-princ {
+    margin: 3%;
+    margin-top: 10%;
+    margin-block-end: 10%;
 }

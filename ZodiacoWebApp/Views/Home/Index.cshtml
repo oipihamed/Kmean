@@ -3,6 +3,98 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Horóscopos</h1>
+    <img src="~/img/horoscopo.jpg">
+    <br /><br />
+    <p align="justify">
+        El horóscopo es uno de los métodos de predicción más seguidos en el mundo. Sus orígenes se remontan milenios atrás,
+        pero esto no quiere decir que se entienda como algo anticuado, ni mucho menos. Según la astrología cada uno de los 12 signos zodiacales que rigen tiene rasgos positivos y negativos,
+        así como similitudes y diferencias.
+        <br />
+        Asimismo, la astrología divide en cuatro elementos (fuego, tierra, aire y agua) a los 12 signos zodiacales y
+        dependiendo de cada elemento las personas tienen características especiales como una personalidad más fuerte
+        la forma de ver la vida, la manera en la que se relacionan con las demás personas, entre otras características.
+    </p>
+    <div style="text-align:center">
+        <div class="row" margin: 0 auto>
+        <div class="col-sm-6">
+            <div class="card border border-info" style="width: 25rem ; height: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Signos de fuego </h5>
+                    <h6>Aries, Leo y Sagitario</h6>
+                    <img src="~/img/fuego.png" style="width:25%">
+                    <p class="card-text">
+                        Las personas fuego se caracterizan por ser fuente de luz. Siempre están activos y vitales.
+                        Aportan pasión y, además, alegría. Asimismo, tienen un estilo histriónico lo cual llama la
+                        atención de las demás personas. También son creativos, expresivos, sinceros y son capaces de
+                        mostrar el camino correcto.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card border border-info" style="width: 25rem; height: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Signos de tierra</h5>
+                    <h6>Tauro, Virgo y Capricornio</h6>
+                    <img src="~/img/tierra.png" style="width:25%">
+                    <p class="card-text">
+                        Las persona tierra se caracterizan por ser estables y seguros. Estas personas aportan estabilidad y
+                        compromiso. Su ser es completo y le permite el crecimiento en cualquier ámbito. Además, son realistas,
+                        organizados, perseverantes y sensatos. Sin embargo, son personas muy reservadas, observadoras y
+                        calladas por lo que les cuesta mucho expresar lo que sienten.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row" margin: 0 auto>
+        <div class="col-sm-6">
+            <div class="card border border-info" style="width: 25rem; height: 25rem; ">
+                <div class="card-body">
+                    <h5 class="card-title">Signos de aire </h5>
+                    <h6>Géminis, Libra y Acuario</h6>
+                    <img src="~/img/aire.png" style="width:25%">
+                    <p class="card-text">
+                        Las personas aire se identifican por ser ligeros, sutiles,
+                        sociales y ágiles. Tienen una mirada impactante. Son comunicativos y la sabiduría,
+                        los sonidos y las palabras de alientos son sus fortalezas.
+                        Valoran el equipo en trabajo y son visionarios.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card border border-info" style="width: 25rem; height: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Signos de agua</h5>
+                    <h6>Cáncer, Escorpio y Piscis</h6>
+                    <img src="~/img/agua.png" style="width:25%">
+                    <p class="card-text">
+                        Las personas agua se caracterizan por aportar amor, protección, vida, sensibilidad y empatía. Además,
+                        el agua se caracteriza por purificar, limpiar,
+                        dar vida y devolver la paz. Por tal razón, estas personas se identifican con eso.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ </div>
+    
+    <br />
+    <div class="card ">
+        <div class="card-body text-center border border-info">
+            <img class="card-img-top" src="/img/img.webp" style="width:75%; align-content:center" alt="Card image cap" ;>
+            <h6>     ¿ C O M P A T I B I L I D A D ? </h6>
+            <br />
+            <p class="card-text">
+                La compatibilidad entre signos depende de diferentesz factores, emocionales y sociales de
+                las personas en cuestión. Resuelve el siguiente test que para conocer tu compitibilidad con otros signos
+            </p>
+            <button type="button" class="btn btn-secondary btn-sm"> <a asp-area="" asp-controller="Home" asp-action="Privacy">Comenzar</a></button>
+
+        </div>
+    </div>
 </div>

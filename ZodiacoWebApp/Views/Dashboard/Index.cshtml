@@ -5,7 +5,7 @@
 }
 <div class="row">
     <form class="form-inline" method="POST" id="myForm">
-        <div class="col-2">
+        <div class="col-1">
             <select class="custom-select my-1 mr-sm-2" id="op2" name="op2" onchange="changeChart(this.form)">
                 <option value="" selected>Selecciona el eje Y...</option>
                 <option value="Compatibilidad">Compatibilidad</option>
@@ -17,12 +17,12 @@
                 <option value="Felicidad">Felicidad</option>
             </select>
         </div>
-        <div class="col-8">
-            <figure class="highcharts-figure">
+        <div class="col-10" style="width:max-content">
+            <figure class="highcharts-figure" >
                 <div id="container"></div>
             </figure>
         </div>
-        <div class="col-2">
+        <div class="col-1">
 
             <select class="custom-select my-1 mr-sm-2" id="op3" name="op3" onchange="changeChart(this.form)">
                 <option value="" selected>Selecciona el eje Z...</option>
